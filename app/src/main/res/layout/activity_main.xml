@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<LinearLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -26,29 +29,30 @@
             android:background="@drawable/firstlayer">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_marginTop="50px"
-                android:layout_marginBottom="50px"
                 android:layout_width="300px"
                 android:layout_height="300px"
-                android:src="@drawable/capture"
-                app:civ_border_width="1dp"
-                app:civ_border_color="@android:color/white"/>
+                android:layout_marginTop="50px"
+                android:layout_marginBottom="50px"
+                android:src="@drawable/faris"
+                app:civ_border_color="@android:color/white"
+                app:civ_border_width="1dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Mochammad Faris"
+                android:textColor="@color/colorTitle"
                 android:textSize="22sp"
-                android:textStyle="bold"
-                android:text="Rizaldi Zuhal Dewangga"
-                android:textColor="@color/colorTitle"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:textStyle="normal"
-                android:text="Malang, Jawa Timur"
+                android:text="Surabaya, East Java, Indonesia"
                 android:textColor="@color/colorSubTitle"
-                android:layout_marginBottom="5px"
+                android:layout_marginBottom="7px"
                 android:layout_marginTop="5px"/>
 
         </LinearLayout>
@@ -74,7 +78,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="24k"
+                    android:text="28k"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/colorTitleWhite"/>
@@ -102,7 +106,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2400"
+                    android:text="1"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/colorTitleWhite"/>
@@ -130,7 +134,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="12k"
+                    android:text="120k"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/colorTitleWhite"/>
@@ -164,14 +168,14 @@
                 android:textColor="@color/colorTitleWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="Email"/>
+                android:text="TTL"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTitleWhite"
                 android:textSize="18sp"
                 android:textStyle="normal"
-                android:text="rizaldidewangga@gmail.com"/>
+                android:text="Surabaya, 28 April 2000"/>
 
         </LinearLayout>
         <View
@@ -192,14 +196,72 @@
                 android:textColor="@color/colorTitleWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="Phone"/>
+                android:text="Pendidikan"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTitleWhite"
                 android:textSize="18sp"
                 android:textStyle="normal"
-                android:text="081123456333"/>
+                android:text="S1 Teknik Informatika"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:layout_marginTop="10px"
+            android:layout_marginRight="50px"
+            android:layout_marginBottom="10px"
+            android:background="@color/colorHorizontalDivider"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Hobi"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:text="Memancing, Memanah"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5px"
+            android:layout_marginTop="10px"
+            android:layout_marginRight="50px"
+            android:layout_marginBottom="10px"
+            android:background="@color/colorHorizontalDivider"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Status"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhite"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:text="Sedang Mencari Pasangan"/>
 
         </LinearLayout>
         <View
@@ -220,14 +282,14 @@
                 android:textColor="@color/colorTitleWhite"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:text="Tanggal Lahir"/>
+                android:text="Kontak"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorTitleWhite"
                 android:textSize="18sp"
                 android:textStyle="normal"
-                android:text="24 April 1999"/>
+                android:text="081232135590"/>
 
         </LinearLayout>
         <View
@@ -237,9 +299,9 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="10px"
             android:background="@color/colorHorizontalDivider"/>
-
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

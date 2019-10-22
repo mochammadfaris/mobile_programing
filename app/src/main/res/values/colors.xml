@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#241333</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorLayerBack">#ffdead</color>
-    <color name="colorBack">#cd853f</color>
-    <color name="colorTitle">#ffa500</color>
+    <color name="colorBack">#1976d2</color>
+    <color name="colorTitle">#0d47a1</color>
     <color name="colorSubTitle">#708090</color>
     <color name="colorTitleWhite">#fdf5e6</color>
     <color name="colorSubTitleWhite">#708090</color>
